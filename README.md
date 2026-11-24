@@ -10,7 +10,7 @@ Integra tres modelos reales entrenados en el proyecto y los compara lado a lado 
 | **Institución / programa** | Universidad Autónoma de Chihuahua (UACh) · Maestría en Ingeniería en Computación |
 | **Materia** | Machine Learning (MIC1) |
 | **Docente / asesora** | Dra. Olanda Prieto Ordaz |
-| **App en línea** | _pega aquí la URL pública, p. ej. `https://dropout-ml.streamlit.app`_ |
+| **App en línea** | `[https://dropout-ml.streamlit.app](https://dropout-app-345491.streamlit.app/)` |
 
 ## Qué hace la app
 
