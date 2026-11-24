@@ -1,0 +1,69 @@
+{
+  "Random Forest": {
+    "min_samples_leaf": 2,
+    "max_features": "log2",
+    "max_depth": 16,
+    "criterion": "entropy",
+    "class_weight": "balanced"
+  },
+  "Bagging": {
+    "max_samples": 1.0,
+    "max_features": 0.3,
+    "estimator__min_samples_leaf": 5,
+    "estimator__max_depth": 12,
+    "estimator__class_weight": "balanced"
+  },
+  "Pasting": {
+    "max_samples": 0.9,
+    "max_features": 0.3,
+    "estimator__min_samples_leaf": 5,
+    "estimator__max_depth": 12,
+    "estimator__class_weight": "balanced"
+  },
+  "AdaBoost": {
+    "estimator__max_depth": 6,
+    "learning_rate": 0.1,
+    "n_estimators": 50
+  },
+  "Gradient Boosting": {
+    "subsample": 0.7,
+    "n_estimators": 300,
+    "min_samples_leaf": 5,
+    "max_features": 0.3,
+    "max_depth": 4,
+    "learning_rate": 0.05
+  },
+  "HistGradientBoosting": {
+    "min_samples_leaf": 10,
+    "max_leaf_nodes": 15,
+    "max_iter": 100,
+    "max_depth": null,
+    "learning_rate": 0.1,
+    "l2_regularization": 1,
+    "class_weight": "balanced"
+  },
+  "EBM": {
+    "interactions": 10,
+    "learning_rate": 0.03,
+    "max_leaves": 3,
+    "min_samples_leaf": 4
+  },
+  "Voting (hard)": {
+    "weights": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  "Voting (soft)": {
+    "weights": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  }
+}

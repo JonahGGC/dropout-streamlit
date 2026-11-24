@@ -1,0 +1,4 @@
+Modelo,Estudiantes,Máx. diferencia de probabilidad (app − Python),Clases distintas,Accuracy (app),F1 macro (app),F1 macro (proyecto),Resultado
+Regresión logística,885,4.996003610813204e-16,0,0.7265536723163842,0.6883942599962048,0.6883942599962048,Coincide
+Random Forest,885,0.0,0,0.7593220338983051,0.7160739530306944,0.7160739530306944,Coincide
+Voting soft,885,2.220446049250313e-16,0,0.7559322033898305,0.7027998065692432,0.7027998065692432,Coincide

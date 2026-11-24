@@ -1,0 +1,28 @@
+﻿Estudio,Datos,Modelo,Accuracy,Precision,Recall,F1,ROC-AUC
+Praptomo et al. (2026),"UCI 697, 4,424; Test de 885",Regresión Logística,0.7684,0.7070,0.6754,0.6826,—
+Praptomo et al. (2026),"UCI 697, 4,424; Test de 885",Random Forest,0.7718,0.7275,0.6859,0.6979,—
+Praptomo et al. (2026),"UCI 697, 4,424; Test de 885",XGBoost optimizado,0.7605,0.7075,0.6958,0.7008,—
+Martins et al. (2023),"Versión previa (4,433); fin del 1er semestre",SVMSMOTE + Random Forest,—,—,0.749ᵃ,0.707ᵇ,—
+Martins et al. (2023),Fin del 1er semestre,Balanced Random Forest,—,—,0.739ᵃ,0.713ᵇ,—
+Martins et al. (2023),"Fin del 2º semestre, sin los que ya abandonaron",SVMSMOTE + Random Forest,—,—,0.748ᵃ,0.641ᵇ,—
+Villar & de Andrade (2024),"UCI 697, con SMOTE; partición no reportada",SVM,—,—,—,0.743ᶜ,—
+Villar & de Andrade (2024),ídem,Random Forest,—,—,—,0.840ᶜ,—
+Villar & de Andrade (2024),ídem,Gradient Boosting,—,—,—,0.813ᶜ,—
+Villar & de Andrade (2024),ídem,XGBoost ★,—,—,—,0.857ᶜ,—
+Villar & de Andrade (2024),ídem,CatBoost,—,—,—,0.850ᶜ,—
+Villar & de Andrade (2024),ídem,LightGBM,—,—,—,0.853ᶜ,—
+Este trabajo,UCI 697; Test de 885,Regresión Logística (F_1),0.7266,0.6973,0.6996,0.6884,0.8838
+Este trabajo,UCI 697; Test de 885,Regresión Logística (F_1) + P(Dropout) ≥ 0.40,0.7254,0.6874,0.6915,0.6832,0.8838
+Este trabajo,UCI 697; Test de 885,SVM Lineal optimizado,0.7684,0.7175,0.7024,0.7078,0.8716ᵈ
+Este trabajo,UCI 697; Test de 885,SVM Polinomial optimizado,0.7345,0.7032,0.7072,0.6960,0.8618ᵈ
+Este trabajo,UCI 697; Test de 885,SVM RBF optimizado,0.7627,0.7046,0.6822,0.6899,0.8529ᵈ
+Este trabajo,UCI 697; Test de 885,Voting (soft) optimizado ◆,0.7559,0.7049,0.7038,0.7028,0.8900
+Este trabajo,UCI 697; Test de 885,Voting (hard) optimizado,0.7390,0.6965,0.6997,0.6928,—
+Este trabajo,UCI 697; Test de 885,HistGradientBoosting optimizado,0.7266,0.6775,0.6790,0.6752,0.8750
+Este trabajo,UCI 697; Test de 885,Stacking optimizado,0.7379,0.7025,0.7075,0.6970,0.8882
+Este trabajo,UCI 697; Test de 885,Gradient Boosting optimizado,0.7288,0.6935,0.6970,0.6872,0.8867
+Este trabajo,UCI 697; Test de 885,EBM optimizado,0.7311,0.7051,0.7120,0.6967,0.8893
+Este trabajo,UCI 697; Test de 885,Random Forest optimizado ★,0.7593,0.7206,0.7213,0.7161,0.8871
+Este trabajo,UCI 697; Test de 885,Pasting optimizado,0.7548,0.7114,0.7142,0.7096,0.8839
+Este trabajo,UCI 697; Test de 885,AdaBoost optimizado,0.7141,0.6918,0.6889,0.6774,0.8742
+Este trabajo,UCI 697; Test de 885,Bagging optimizado,0.7616,0.7159,0.7152,0.7130,0.8818

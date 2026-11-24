@@ -1,0 +1,19 @@
+# Dos temas: Streamlit muestra el selector «Claro / Oscuro / Usar configuración del sistema»
+# en el menú ⋮ → Settings, y por defecto sigue el modo de tu sistema operativo.
+[theme.light]
+primaryColor = "#2a78d6"
+backgroundColor = "#F6F5F1"
+secondaryBackgroundColor = "#EDEBE4"
+textColor = "#0F1B2D"
+
+[theme.dark]
+primaryColor = "#2a78d6"
+backgroundColor = "#171614"
+secondaryBackgroundColor = "#24221f"
+textColor = "#EDEBE8"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

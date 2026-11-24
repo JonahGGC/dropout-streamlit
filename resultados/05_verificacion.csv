@@ -1,0 +1,38 @@
+﻿Concepto,Esperado,Obtenido,Diferencia,Estado
+Estudiantes en Train,3539.0,3539.0,0.0,OK
+Estudiantes en Test,885.0,885.0,0.0,OK
+F1 macro CV — Regresión Logística base (por defecto),0.7006,0.7006,-0.0,OK
+F1 macro CV — Regresión Logística (F_1),0.717,0.717,0.0,OK
+F1 macro CV — SVM Lineal optimizado,0.7086,0.7086,-0.0,OK
+F1 macro CV — SVM Polinomial optimizado,0.7211,0.7211,0.0,OK
+F1 macro CV — SVM RBF optimizado,0.7217,0.7217,-0.0,OK
+F1 macro CV — Random Forest optimizado,0.7262,0.7262,0.0,OK
+F1 macro CV — Bagging optimizado,0.7101,0.7101,0.0,OK
+F1 macro CV — Pasting optimizado,0.7189,0.7189,-0.0,OK
+F1 macro CV — AdaBoost optimizado,0.7177,0.7177,-0.0,OK
+F1 macro CV — Gradient Boosting optimizado,0.7316,0.7316,-0.0,OK
+F1 macro CV — HistGradientBoosting optimizado,0.734,0.734,-0.0,OK
+F1 macro CV — EBM optimizado,0.7309,0.7309,0.0,OK
+F1 macro CV — Voting (hard) optimizado,0.7373,0.7373,-0.0,OK
+F1 macro CV — Voting (soft) optimizado,0.7375,0.7375,-0.0,OK
+F1 macro CV — Stacking optimizado,0.7331,0.7331,0.0,OK
+Threshold de la LR,0.4,0.4,0.0,OK
+F1 macro Test — Regresión Logística (F_1),0.6884,0.6884,-0.0,OK
+F1 macro Test — Regresión Logística (F_1) + P(Dropout) ≥ 0.40,0.6832,0.6832,-0.0,OK
+F1 macro Test — SVM Lineal optimizado,0.7078,0.7078,0.0,OK
+F1 macro Test — SVM Polinomial optimizado,0.696,0.696,-0.0,OK
+F1 macro Test — SVM RBF optimizado,0.6899,0.6899,-0.0,OK
+F1 macro Test — Random Forest optimizado,0.7161,0.7161,-0.0,OK
+F1 macro Test — Bagging optimizado,0.713,0.713,0.0,OK
+F1 macro Test — Pasting optimizado,0.7096,0.7096,-0.0,OK
+F1 macro Test — Voting (soft) optimizado,0.7028,0.7028,-0.0,OK
+F1 macro Test — Stacking optimizado,0.697,0.697,-0.0,OK
+F1 macro Test — EBM optimizado,0.6967,0.6967,-0.0,OK
+F1 macro Test — Voting (hard) optimizado,0.6928,0.6928,0.0,OK
+F1 macro Test — Gradient Boosting optimizado,0.6872,0.6872,-0.0,OK
+F1 macro Test — AdaBoost optimizado,0.6774,0.6774,0.0,OK
+F1 macro Test — HistGradientBoosting optimizado,0.6752,0.6752,0.0,OK
+Accuracy Test — Regresión Logística (F_1) + P(Dropout) ≥ 0.40,0.7254,0.7254,0.0,OK
+Accuracy Test — Voting (soft) optimizado,0.7559,0.7559,0.0,OK
+Accuracy Test — Random Forest optimizado,0.7593,0.7593,0.0,OK
+Accuracy Test — Bagging optimizado,0.7616,0.7616,-0.0,OK
